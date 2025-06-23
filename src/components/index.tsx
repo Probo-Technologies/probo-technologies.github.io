@@ -1,11 +1,11 @@
 import React from 'react';
 import { ThemeProvider, createTheme } from '@mui/material/styles';
 import CssBaseline from '@mui/material/CssBaseline';
-import Header from './components/Header/Header';
-import Hero from './components/Hero/Hero';
-import Products from './components/Products/Products';
-import Footer from './components/Footer/Footer';
-import ThemeToggle from './components/ThemeToggle/ThemeToggle';
+import Header from './Header/Header';
+import Hero from './Hero/Hero';
+import Products from './Products/Products';
+import Footer from './Footer/Footer';
+import ThemeToggle from './ThemeToggle/ThemeToggle';
 const theme = createTheme({
   palette: {
     primary: {

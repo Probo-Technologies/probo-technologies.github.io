@@ -5,6 +5,6 @@ export const getReopsURL = () => {
     return `https://api.github.com/orgs/apache/repos`
 }
 
-export const getConstributorsURL = (repoName) => {
+export const getConstributorsURL = (repoName: string) => {
     return `https://api.github.com/repos/apache/${repoName}/contributors`
 }
