@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/probolabs-website/static/css/main.d7222643.css",
-    "main.js": "/probolabs-website/static/js/main.201b4620.js",
-    "static/js/453.4bd4d901.chunk.js": "/probolabs-website/static/js/453.4bd4d901.chunk.js",
-    "index.html": "/probolabs-website/index.html",
-    "main.d7222643.css.map": "/probolabs-website/static/css/main.d7222643.css.map",
-    "main.201b4620.js.map": "/probolabs-website/static/js/main.201b4620.js.map",
-    "453.4bd4d901.chunk.js.map": "/probolabs-website/static/js/453.4bd4d901.chunk.js.map"
+    "main.css": "/probolabs/static/css/main.d7222643.css",
+    "main.js": "/probolabs/static/js/main.cc06b9fa.js",
+    "static/js/453.4bd4d901.chunk.js": "/probolabs/static/js/453.4bd4d901.chunk.js",
+    "index.html": "/probolabs/index.html",
+    "main.d7222643.css.map": "/probolabs/static/css/main.d7222643.css.map",
+    "main.cc06b9fa.js.map": "/probolabs/static/js/main.cc06b9fa.js.map",
+    "453.4bd4d901.chunk.js.map": "/probolabs/static/js/453.4bd4d901.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d7222643.css",
-    "static/js/main.201b4620.js"
+    "static/js/main.cc06b9fa.js"
   ]
 }
