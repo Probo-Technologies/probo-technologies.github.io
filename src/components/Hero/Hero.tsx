@@ -67,14 +67,12 @@ const Hero = () => {
 
                     {/* Main heading */}
                     <h1 className="hero__title">
-                        Crafting
-                        Open Source
-                        Excellence
+                        Empowering Developers Through Open Source
                     </h1>
 
                     {/* Subtitle */}
                     <p className="hero__subtitle">
-                        We build powerful, accessible, and beautifully designed open source tools that empower developers worldwide to create amazing applications.
+                        Through our contributions, we aim to simplify infrastructure, accelerate development, and offer clean, reusable solutions that help others move faster and build better.
                     </p>
 
                     {/* CTA Buttons */}

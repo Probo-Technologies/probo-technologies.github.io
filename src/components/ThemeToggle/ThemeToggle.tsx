@@ -4,7 +4,7 @@ import { Sun, Moon, Palette } from 'lucide-react';
 const ThemeToggle = () => {
   const [theme, setTheme] = useState<'default' | 'light'>('light');
 
-  const applyTheme = (newTheme: 'default' | 'light') => {
+  const applyTheme = (newTheme: 'light' | 'default') => {
     const body = document.body;
     
     // Remove existing theme classes
@@ -17,11 +17,10 @@ const ThemeToggle = () => {
   };
 
   const cycleTheme = () => {
-    const themes: ('default' | 'light')[] = ['default', 'light'];
+    const themes: ('default' | 'light')[] = ['light', 'default'];
     const currentIndex = themes.indexOf(theme);
     const nextIndex = (currentIndex + 1) % themes.length;
     const nextTheme = themes[nextIndex];
-    console.log(nextTheme);
     setTheme(nextTheme);
     applyTheme(nextTheme);
   };
