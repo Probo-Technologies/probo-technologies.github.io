@@ -18,10 +18,17 @@ jobs:
         with:
           node-version: 20
 
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Deploy to GitHub Pages with custom domain
-        run: CI=false npm run deploy
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Build the app
+        run: |
+            npm run build
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+            path: 'build/'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
+        env:  
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
