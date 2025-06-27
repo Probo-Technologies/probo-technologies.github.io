@@ -1,5 +1,4 @@
-import React from 'react';
-import { Github, Twitter, Linkedin, Mail, Heart, ExternalLink } from 'lucide-react';
+import { Github, Twitter, Linkedin, Mail, Heart} from 'lucide-react';
 import './Footer.scss';
 import { WEBSITE_NAME,EMAIL, PROBO_GITHUB_URL, LINKEDIN_URL, TWITTER_URL } from '../../constants';
 

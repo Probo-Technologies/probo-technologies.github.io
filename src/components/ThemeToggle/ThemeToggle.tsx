@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import { Sun, Moon, Palette } from 'lucide-react';
+import { useState, useEffect } from 'react';
+import { Sun, Palette } from 'lucide-react';
 
 const ThemeToggle = () => {
   const [theme, setTheme] = useState<'default' | 'light'>('light');
@@ -15,6 +15,10 @@ const ThemeToggle = () => {
       body.classList.add(`theme-${newTheme}`);
     }
   };
+
+  useEffect(() => {
+    applyTheme(theme);
+  }, []);
 
   const cycleTheme = () => {
     const themes: ('default' | 'light')[] = ['light', 'default'];

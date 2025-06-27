@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, Star, Users, GitBranch } from 'lucide-react';
+import { ArrowRight, Star, GitBranch } from 'lucide-react';
 import './Hero.scss';
 import { PROBO_GITHUB_URL } from '../../constants';
 import { fetchContributors, getRepositories } from '../../services/github'
@@ -47,7 +47,7 @@ const Hero = () => {
         });
     }
     React.useEffect(() => {
-        // getRepos();
+        getRepos();
     }, []);
     return (
         <section id="home" className="hero">
